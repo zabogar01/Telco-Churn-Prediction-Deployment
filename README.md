@@ -6,7 +6,7 @@
 
 ![image](https://user-images.githubusercontent.com/78836385/125919382-34abbcd3-5d69-43a3-989d-c87cc47d2f39.png)
 
-2. After that we will use flask specifically flasgger to create the UI, load the model using the exported model name (in this case model_telco.pkl)
+2. After that open appflasggr file, we will use flask specifically flasgger to create the UI, load the model using the exported model name (in this case model_telco.pkl)
 
 ![image](https://user-images.githubusercontent.com/78836385/125919893-b3b0b78c-b32a-403f-ba50-2344a9c8d2e9.png)
 
