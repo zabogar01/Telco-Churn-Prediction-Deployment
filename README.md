@@ -9,7 +9,7 @@ In Jupyter, i use:
 - matplotlib (pip install matplotlib)
 - seaborn (pip install seaborn)
 - scikit-learn (pip install -U scikit-learn)
-- -pickle (pip install pickle-mixin)
+- pickle (pip install pickle-mixin)
 
 In VSCode:
 - flask (pip install flask)
