@@ -2,7 +2,16 @@
 
 *This readme is specifically to provide quick instruction on how to run and use the model deployment, not the analysis of the data itself
 
-1. The first step is to run all of the Telco_Churn file until the you have export the model using pickle
+In this case i use Jupyter and VSCode which has different packages installed, thus to run all the code properly, the following packages must be installed:
+In Jupyter, i use:
+- numpy (pip install numpy)
+- pandas (pip install pandas)
+- matplotlib (pip install matplotlib)
+- seaborn (pip install seaborn)
+- scikit-learn (pip install -U scikit-learn)
+
+
+1. The first step is to run all of the Telco_Churn file (In my case i use jupyter), or you can just run the code from Machine Learning section and further until you successfully run the code to export the model
 
 ![image](https://user-images.githubusercontent.com/78836385/125919382-34abbcd3-5d69-43a3-989d-c87cc47d2f39.png)
 
