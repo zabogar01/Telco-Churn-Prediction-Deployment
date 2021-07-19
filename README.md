@@ -67,7 +67,18 @@ In VSCode:
 10. Run wherever your local host it and then add /apidocs
 or, click : http://127.0.0.1:5000/apidocs/
 
-11. On your browser you it should direct you to flasggr UI, then input any data (As this is an early build, the value of the data must be exactly the same as the telco_churn original value)
+11. After you successfully run in your browser it should look like this
+
+![image](https://user-images.githubusercontent.com/78836385/126116466-9ca513cd-aedf-4d11-8729-254a7338284b.png)
+
+
+12. To start predicting, click Try it out on the parameter
+
+![image](https://user-images.githubusercontent.com/78836385/126116740-d28c45e2-9686-4a84-923c-caec9c31620d.png)
+
+
+
+11. After that you should be able to input any data (As this is an early build, the value of the data must be exactly the same as the telco_churn original value)
 
 ![image](https://user-images.githubusercontent.com/78836385/125922092-da9e89e3-42e6-4c28-b575-07413d3e1159.png)
 
