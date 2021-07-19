@@ -2,21 +2,8 @@
 
 *This readme is specifically to provide quick instruction on how to run and use the model deployment, not the analysis of the data itself
 
-In this case i use Jupyter and VSCode which has different packages installed, thus to run all the code properly, the following packages must be installed:
-In Jupyter, i use:
-- numpy (pip install numpy)
-- pandas (pip install pandas)
-- matplotlib (pip install matplotlib)
-- seaborn (pip install seaborn)
-- scikit-learn (pip install -U scikit-learn)
-- pickle (pip install pickle-mixin)
+In this case i use Jupyter and VSCode which has different packages installed, thus to run all the code properly, the packages listed in the txt file must be installed (Libraries.txt):
 
-In VSCode:
-- flask (pip install flask)
-- pandas
-- numpy
-- pickle
-- flasgger (pip install flasgger)
 
 1. The first step is to import all of the packages, get the csv file ready and read through jupyter
 
