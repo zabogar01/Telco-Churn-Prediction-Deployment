@@ -86,3 +86,7 @@ or, click : http://127.0.0.1:5000/apidocs/
 
 ![image](https://user-images.githubusercontent.com/78836385/125922483-faa5ba6e-53c1-443e-8ad6-87701ab3e72c.png)
 
+
+This this model can predict fairly decent, we can predict more acurate if the customer is not churn than if its churn, however it is normal for an imbalance data but we did manage to have an f1-score of 0.62 on test data so it's better than predicting randomly
+
+![image](https://user-images.githubusercontent.com/78836385/126117413-a39c15d4-8cce-4d2c-9916-a4109ddbdac5.png)
