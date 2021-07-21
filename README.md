@@ -58,7 +58,8 @@ in this case the homepage should look like this
 
 9. After you run the code you will get message on the terminal like this
 
-![image](https://user-images.githubusercontent.com/78836385/125921643-c2eed22f-1257-4edd-bf93-cbb7dc2ed470.png)
+![image](https://user-images.githubusercontent.com/78836385/126522889-485bb0c9-6dac-4595-9bc9-30d81a3acf1b.png)
+
 
 10. Run wherever your local host is and then add /apidocs
 or, click : http://127.0.0.1:5000/apidocs/
