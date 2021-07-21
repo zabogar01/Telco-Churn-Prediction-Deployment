@@ -84,6 +84,69 @@ or, click : http://127.0.0.1:5000/apidocs/
 ![image](https://user-images.githubusercontent.com/78836385/125922483-faa5ba6e-53c1-443e-8ad6-87701ab3e72c.png)
 
 
+## Containerization using Dockerfile
+
+After we succseffuly create our API we can start using Dockerfile, make sure that the files name is exactly Dockerfile (without extension)
+
+1. Set the base image, in this case we will be using python
+```
+FROM python:3.8-slim-buster
+```
+
+2. Create working directory which makes Docker to use this path as the default location for all subsequent commands
+```
+WORKDIR /app
+```
+
+3. Copy the files in the directory to image 'app' directory
+```
+COPY . /app
+```
+
+4. Install all of the packages listed in the requirements.txt
+```
+RUN pip3 install -r requirements.txt
+```
+
+5. Expose the application to the specific ports
+```
+EXPOSE 5000
+```
+
+6. Finally we can run our image inside the container using CMD
+```
+CMD ["python3","app.py"]
+```
+
+The full code should be like this
+
+![image](https://user-images.githubusercontent.com/78836385/126528779-94cd3040-70d0-471d-9a4d-87b90b9a1a06.png)
+
+
+As mentioned above the file should be name as Dockerfile otherwise there might be an error
+
+7. After we create the Dockerfile, using the terminal we can start to build our dockerfile image. However make sure you have the right directory using cd <folder name>
+```
+docker build --tag docker_app . 
+```
+
+8. If it's successful, you can check your docker image using
+```
+docker images
+```
+  
+9. Now we can start to run the app (and specified the port)
+```
+docker run -p 5000:5000 docker_app
+```
+Your terminal should be like this (you can ignore the warning)
+  
+![image](https://user-images.githubusercontent.com/78836385/126529995-acd45b90-5182-4ca0-97ad-872d6461ea1c.png)
+
+10. You can go to http://127.0.0.1:5000/ to view the homepage or http://127.0.0.1:5000/apidocs/ if you want to predict
+
+  
+
 This this model can predict fairly decent, we can predict more acurate if the customer is not churn than if its churn, however it is normal for an imbalance data but we did manage to have an f1-score of 0.62 on test data so it's better than predicting randomly
 
 ![image](https://user-images.githubusercontent.com/78836385/126117413-a39c15d4-8cce-4d2c-9916-a4109ddbdac5.png)
