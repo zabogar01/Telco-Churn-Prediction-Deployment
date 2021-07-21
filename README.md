@@ -2,8 +2,12 @@
 
 *This readme is specifically to provide quick instruction on how to run and use the model deployment, not the analysis of the data itself
 
-In this case i use Jupyter and VSCode which has different packages installed, thus to run all the code properly, the packages listed in the txt file must be installed (Libraries.txt):
+Before we start building our API, normally we need to export our model using the jupyter file, however for convenience purposes i've already added the model file (model_telco.pkl)
 
+There will be 2 part, first we build the API using Flask App, specifically Flasggr. Then we will also use Dockerfile so that the environment for deployment can be standardized and makes it portable so that everyone can easily use it.
+
+
+## Creating Flask App for Machine Learning
 
 1. The first step is to import all of the packages, get the csv file ready and read through jupyter
 
@@ -51,7 +55,7 @@ In this case i use Jupyter and VSCode which has different packages installed, th
 
 ![image](https://user-images.githubusercontent.com/78836385/125921643-c2eed22f-1257-4edd-bf93-cbb7dc2ed470.png)
 
-10. Run wherever your local host it and then add /apidocs
+10. Run wherever your local host is and then add /apidocs
 or, click : http://127.0.0.1:5000/apidocs/
 
 11. After you successfully run in your browser it should look like this
