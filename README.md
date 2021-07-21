@@ -33,7 +33,12 @@ There will be 2 part, first we build the API using Flask App, specifically Flasg
 5. Load the model from the jupyter file that you have exported and then assign it to variable, in this case i assigned it to model_telco
 ![image](https://user-images.githubusercontent.com/78836385/126112685-b12a830d-86df-4d34-bf1b-f7d69e033440.png)
 
-6. Create a route for your flask app, the default route should be http://127.0.0.1:5000/ and it will your homepage, in this case the homepage should look like this
+6. Create a homepage route for your flask app, the default local host should be http://127.0.0.1:5000/, 
+
+![image](https://user-images.githubusercontent.com/78836385/126522641-f3dfffb1-a45d-4a3a-be8c-1ef1bf4f22d6.png)
+
+
+in this case the homepage should look like this
 
 ![image](https://user-images.githubusercontent.com/78836385/126113424-bdb31172-969e-4528-b04b-5041a812444f.png)
 
